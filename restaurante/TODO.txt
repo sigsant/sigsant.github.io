@@ -1,0 +1,18 @@
+PORTAL WEB RESTAURANTE
+=====================
+
+1. LOGOTIPO
+2. FUENTES DE LETRA
+3. MENÚ: El Restaurante (index), CARTA, VINOS, DONDE ESTAMOS, REGISTRO
+
+3.1 EL RESTAURANTE --> Información sobre el restaurante. Incluir fotos.
+3.2 Carta: Carta. Utilizar encabezados... Primeros, segundos, postres.
+3.3 Vinos: Cuando se pasa el ratón por un vino, se muestra la descripción del vino en un div.
+3.4 Donde estamos: Ifram de Google Maps
+3.5: Registro: Formulario para registrar clientes. Incluir:
+	
+	-Nombre y apellidos (obligatorio)
+	-Email (obligatorio)
+	-Teléfono(obligatorio)
+	-Provincia de residencia
+	-Intereses (multiopción): Menú degustación, catas de vinom, catas de aceites, catas de agua.

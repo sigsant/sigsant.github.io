@@ -1,0 +1,217 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Libre Baskerville', serif;
+*/
+
+body{
+	background: #111213;
+}
+
+header{
+	background: #8f0222; /* Old browsers */
+	background: linear-gradient(to bottom, #8f0222 7%,#6d0019 23%,#a90329 56%,#a90329 56%,#a90329 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	border-top: 7px inset #D2AC41;
+	border-left: 7px inset #D2AC41;
+	border-right: 7px inset #D2AC41;
+	font-family: 'Playfair Display', serif;
+	height: 10em;
+	margin:auto;
+	width: 50%;
+}
+
+h1 {
+	text-align:center;
+	margin-top: 6%;
+	font-size: 3em;
+	color: #E3BE54;
+}
+h2, h3{
+	color: white;
+	text-align: center;
+}
+
+h3{
+	font-style: italic;
+	margin-bottom:9%;
+}
+
+p{
+	color: white;
+	padding-left: 3%;
+	font-size: .9em;
+}
+
+nav{
+	background: #8f0222; /* Old browsers */
+	background: linear-gradient(to bottom, #8f0222 7%,#6d0019 23%,#a90329 56%,#a90329 56%,#a90329 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	border-right: 7px inset #D2AC41;
+	border-left: 7px inset #D2AC41;
+	margin: auto;
+	padding-bottom: 4%;
+	width: 58%;
+
+}
+
+ul{
+	list-style: none;
+	margin: auto;
+	margin-left: 0;
+	padding-top: 1em;
+	display: inline;
+}
+
+li{
+	float: left;
+	padding: 0em 2em;
+	list-style: none;
+}
+
+a{
+	color: white;
+}
+
+label{
+	color:white;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.left{
+	background: #111213;
+	border-right: 7px inset #D2AC41;
+	border-top: 7px inset #D2AC41;
+	float: left;
+	padding-bottom: 1.1%;
+	width: 30%;
+}
+
+.center{
+	width: 40%;
+	margin: auto;
+}
+
+.logo{
+	width: 30%;
+	padding-left: 20%;
+	margin-top: -5%;
+}
+
+.right{
+	background: #111213;
+	border-left: 7px inset #D2AC41;
+	border-top: 7px inset #D2AC41;
+	float: right;
+	margin-top: -4.3em;
+	padding-bottom: 1.35%;
+	width: 36%;
+}
+
+main{
+	background: #8f0222; /* Old browsers */
+	background: linear-gradient(to bottom, #8f0222 7%,#6d0019 23%,#a90329 56%,#a90329 56%,#a90329 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	border-left: 7px inset #D2AC41;
+	border-right: 7px inset #D2AC41;
+	display: flex;
+	font-family: 'Libre Baskerville', serif;
+	border-bottom: 7px inset #D2AC41;
+	margin:auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	width: 58%;
+}
+
+.column{
+	flex: 50%;
+}
+
+#mainLeft{
+	width: 50%;
+}
+
+#mainRight{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.experimental{
+	width: 200px;
+	transition: all .4s linear;
+}
+
+.experimental:hover{
+	transform: scale(2, 2);
+}
+
+footer{
+	padding: 3% 0%;
+	text-align: center;
+}
+
+.fab{
+	color: white;
+	font-size: 2em;
+	margin: 0% 1%;
+	opacity: .7;
+	transition: all .5s linear;
+}
+
+.fab:hover{
+	opacity: 1;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+.white{
+	color: white;
+}
+
+.gold{
+	color: #D2AC41;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#banner{
+	color: white;
+	position: fixed;
+	height: 4%;
+	bottom: 0px;
+	padding-top: 1%;
+	padding-left: 5%;
+	background: rgba(0, 255, 50, .5);
+	width: 100%;
+}
+
+.copyright{
+	font-size: 1.2em;
+}
+
+.contacto{
+	color: white;
+}
+
+.contacto li{
+	margin-bottom: 3%;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: space-around;
+	margin: 1.5em 0em;
+}
+
+.vinos{
+	width:100%;
+	width: 9em;
+	height: 8em;
+	cursor: pointer;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Formulario Web</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/queries.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Formulario Web</h1>
+		</header>
+	<div id="formulario">
+		<form>
+			<span class="obligatorio">* Todos los datos deben ser obligatorios</span>
+			<div class="datos negro">
+				<div class="divisor">
+					<label class="etiqueta">Nombre</label>
+				</div>
+				<div class="divisor">
+					<input type="text" id="nombre" placeholder="Albert Einstein" size="15">
+				</div>
+			</div>
+			<div class="datos negro">
+				<div class="divisor">
+					<label for="dni" class="etiqueta">DNI</label>
+				</div>
+				<div class="divisor negro">
+					<input type="text" id="dni" placeholder="05428871D" size="10">
+				</div>
+			</div>
+			<div class="datos negro">
+				<div class="divisor">
+					<label class="etiqueta">Año de nacimiento</label>
+				</div>
+				<div class="divisor">
+					<input type="number" min="1945" max="2018" placeholder="2010" id="edad"  class="cajaTexto" required>
+				</div>
+			</div>
+			<div class="datos negro">
+				<div class="divisor">
+					<label class="etiqueta">Teléfono</label>
+				</div>
+				<div class="divisor">
+					<input type="tel" id="tel" placeholder="91 847 82 91" size="10">
+				</div>
+			</div>
+			<div class="datos negro">
+				<div class="divisor">
+					<label class="etiqueta">Correo electrónico</label>
+				</div>
+				<div class="divisor">
+				<input type="text" id="email" placeholder="bob@bob.com" required>
+				</div>
+			</div>
+			<div class="contacto">
+					<label class="negro">Preferencias de contacto</label>
+					<input type="radio" name="contacto" id="contTel"><label>Teléfono</label>
+					<input type="radio" name="contacto" id="contEmail"><label>Email</label>
+					<input type="radio" name="contacto" id="contPostal"><label>Correo Postal</label>
+				</div>
+				<div class="cursos">
+					<h3>INSCRÍBETE A NUESTROS CURSOS</h3>
+					<div class="contacto">
+						<input type="checkbox" id="html"><label>HTML 5 (300€)</label>
+						<input type="checkbox" id="css"><label>CSS 3 (200€)</label>
+						<input type="checkbox" id="beginJS"><label>Javascript Iniciación (500€)</label>
+					</div>
+					<div class="curso-align">
+						<div>
+							<input type="checkbox" id="advanJS"><label>Javascript Avanzado (400€)</label>
+						</div>
+						<div>
+							<input type="checkbox" id="bootstrap"><label>Bootstrap (200€)</label>
+						</div>
+					</div>
+					<div class="curso-align">
+						<div>
+							<input type="checkbox" id="jQuery"><label>JQuery (300€)</label>
+						</div>
+						<div>
+							<input type="checkbox" id="angular"><label>Angular 5 (800€)</label>
+						</div>
+					</div>
+				</div>
+				<div>
+					<input type="button" value="Validar" id="boton">
+				</div>
+		</form>
+
+	</div>
+	</div>
+	<div id="verificarDatos">
+
+	</div>
+	<footer>
+		<span>Todos los derechos reservados por &copy;S.Santamera</span>
+	</footer>
+	<script src="js/index.js"></script>
+</body>
+</html>

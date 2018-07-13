@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<select onchange="seleccionarCategoria()">
+		<option value="nada">Selecciona una opción</option>
+		<option value="junior">Junior</option>
+		<option value="senior">Senior</option>
+		<option value="director">Director/a</option>
+	</select>
+
+	<button onclick="ocultarCeldas()">Limpiar Tabla</button>
+
+	<table>
+		<tr>
+			<th>Empleado</th>
+			<th>Categoría</th>
+			<th>Sueldo anual (€)</th>
+		</tr>
+		<tr>
+			<td class="senior">Alex</td>
+			<td class="senior">Senior</td>
+			<td class="senior">22.000</td>
+		</tr>
+
+		<tr>
+			<td class="director">Diego</td>
+			<td class="director">Director</td>
+			<td class="director">6.000</td>
+		</tr>
+		<tr>
+			<td class="junior">Ultrasaurio</td>
+			<td class="junior">Junior</td>
+			<td class="junior">18.000</td>
+		</tr>
+		<tr>
+			<td class="junior mujer">Damaris</td>
+			<td class="junior mujer">Junior</td>
+			<td class="junior mujer">20.000</td>
+		</tr>
+		<tr>
+			<td class="senior mujer">Karolyn</td>
+			<td class="senior mujer">Senior</td>
+			<td class="senior mujer">18.000</td>
+		</tr>
+		<tr>
+			<td class="junior">Lisardo</td>
+			<td class="junior">Junior</td>
+			<td class="junior">18.000</td>
+		</tr>
+		<tr>
+			<td class="senior mujer">Maria</td>
+			<td class="senior mujer">Senior</td>
+			<td class="senior mujer">29.000</td>
+		</tr>
+		<tr>
+			<td class="director mujer">Nazaret</td>
+			<td class="director mujer">Directora</td>
+			<td class="director mujer">58.000</td>
+		</tr>
+		<tr>
+			<td class="director mujer">Karla</td>
+			<td class="director mujer">Directora</td>
+			<td class="director mujer">57.500</td>
+		</tr>
+	</table>
+	<script src="js/index.js"></script>
+</body>
+
+</html>

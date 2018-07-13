@@ -1,0 +1,61 @@
+:root{
+    --color-pigeon: #B0C1DE;
+    --centrado: center;
+}
+
+select{
+    max-width: 100%;
+    margin: 1em 5em 0em 60em;
+}
+
+table, th, td{
+    border: 1px solid var(--color-negro);
+}
+
+th, td{
+    padding: 1em;
+    text-align: var(--centrado);
+}
+
+table{
+    margin: auto;
+    margin-top: 3em;
+}
+
+th{
+    color: white;
+    background: black;
+}
+
+td{
+    display: none;
+}
+
+.seleccion{
+    
+    display: table-cell;
+}
+
+.ocultar{
+    display: none;
+}
+
+.senior{
+    background: yellow;
+}
+
+.junior{
+    background: antiquewhite;
+}
+
+.director{
+    background: var(--color-pigeon);
+}
+
+.mujer{
+    background: pink;
+}
+
+.hombre{
+    background: greenyellow
+}

@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+header{
+    justify-content: center;
+    background: aliceblue;
+    padding: 3em;
+}
+
+nav{
+    padding: 2em;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+
+main{
+    justify-content: space-around;
+}
+
+div{
+    margin-top: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    text-align:center;
+}
