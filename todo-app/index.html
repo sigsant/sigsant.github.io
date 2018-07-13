@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Todo-App</title>
+        <link rel="preload" href="css/index,css" as="style">
+        <link rel="preload" href="css/mediaQueries.css" as="style">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/mediaQueries.css">
+        <link href="https://fonts.googleapis.com/css?family=Courgette|Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Todo-App</h1>
+        </header>
+        <div id="introducir">
+            * <input id="insertarTexto" placeholder=" Introduzca una tarea" pattern="[a-zA-Z0-9&#209; &#241;]{4,20}" required="true" value="" onKeyPress="return submitEnter(event);"max="30">
+            <a href="#"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptNyAxNGgtNXY1aC00di01aC01di00aDV2LTVoNHY1aDV2NHoiLz48L3N2Zz4=" alt="Agregar" onclick="ponerTarea('insertarTexto', 'mostrarTareas');"></a>
+            <a href="#"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik01LjY2MiAyM2wtNS4zNjktNS4zNjVjLS4xOTUtLjE5NS0uMjkzLS40NS0uMjkzLS43MDcgMC0uMjU2LjA5OC0uNTEyLjI5My0uNzA3bDE0LjkyOS0xNC45MjhjLjE5NS0uMTk0LjQ1MS0uMjkzLjcwNy0uMjkzLjI1NSAwIC41MTIuMDk5LjcwNy4yOTNsNy4wNzEgNy4wNzNjLjE5Ni4xOTUuMjkzLjQ1MS4yOTMuNzA4IDAgLjI1Ni0uMDk3LjUxMS0uMjkzLjcwN2wtMTEuMjE2IDExLjIxOWg1LjUxNHYyaC0xMi4zNDN6bTMuNjU3LTJsLTUuNDg2LTUuNDg2LTEuNDE5IDEuNDE0IDQuMDc2IDQuMDcyaDIuODI5em0uNDU2LTExLjQyOWwtNC41MjggNC41MjggNS42NTggNS42NTkgNC41MjctNC41My01LjY1Ny01LjY1N3oiLz48L3N2Zz4=" alt="Borrar texto" onclick="clearInput('insertarTexto');"></a>
+            </div>
+            
+            <div class="letra_pequeña">
+                <p<small>* Introduce al menos cuatro car&#225;cteres</small>
+            </div>
+        
+        <div id="mostrarTareas"> 
+            <!--Aqui aparecera la tarea introducida por el usuario-->
+        </div>
+        
+<!--
+        <a href="#"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptNiAxM2gtMTJ2LTJoMTJ2MnoiLz48L3N2Zz4=" alt="Eliminar tarea" onclick="eliminar();"></a>
+-->
+        
+        <script src="js/funcionBotones.js"></script>
+    </body>
+</html>

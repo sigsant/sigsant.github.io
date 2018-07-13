@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+    
+body{
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0.2em;
+}
+
+header{
+    background-color: #93B5EB;
+    font-family: 'Courgette', cursive, 'verdana';
+    padding: 2em 0em;
+    text-align: center;
+}
+
+#introducir{
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    width: 100%;
+
+}
+
+#insertarTexto{
+    padding-left:0.4em;
+}
+
+.letra_pequeña{
+    box-sizing:border-box;
+    color:red;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    margin-left: -3.1em;
+    padding-top: 2em;
+}
+
+#mostrarTareas{
+    border: 0.1em solid #1B3280;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 1em;
+    margin: 1.5em 1em;
+}
+
+input{
+    border: 0.2em solid #1B3280;
+    height: 1.4em;
+    margin-left: 0.3em;
+}
+
+img{
+    margin-left: 2em;
+}
