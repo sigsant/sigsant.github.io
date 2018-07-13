@@ -28,6 +28,7 @@ nav{
 }
 
 main{
+    margin-left: 2em;
     justify-content: space-around;
 }
 

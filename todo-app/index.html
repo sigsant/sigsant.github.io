@@ -17,8 +17,8 @@
         <h1>Todo-App</h1>
     </header>
     <div id="introducir">
-        <input id="insertarTexto" placeholder=" Introduzca una tarea" pattern="[a-zA-Z0-9&#209; &#241;]{4,20}" required="true"
-            value="" onKeyPress="return submitEnter(event);" max="30">
+        <input type="text" id="insertarTexto" placeholder=" Introduzca una tarea" pattern="[a-zA-Z0-9&#209; &#241;]{4,20}" required
+            value="" onKeyPress="return submitEnter(event);">
         <a href="#">
             <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptNyAxNGgtNXY1aC00di01aC01di00aDV2LTVoNHY1aDV2NHoiLz48L3N2Zz4="
                 alt="Agregar" onclick="ponerTarea('insertarTexto', 'mostrarTareas');">
@@ -30,7 +30,7 @@
     </div>
 
     <div class="letra_pequeña">
-        <p<small>* Introduce al menos cuatro car&#225;cteres</small>
+        <p></p><small>* Introduce al menos cuatro car&#225;cteres</small>
     </div>
 
     <div id="mostrarTareas">
