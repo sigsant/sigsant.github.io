@@ -6,5 +6,6 @@ div{
 img{
     max-width: 100%;
     width: 16%;
+    height: 13%;
     cursor: pointer;
 }
